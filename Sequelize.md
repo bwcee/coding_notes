@@ -16,8 +16,8 @@
 
 5. set up /models/index.js by importing individual model files here
 
-- _all steps above, i.e. all sequelize set-up files, use CJS module format (.js) for consistency_<br>
-- _only from below use ESM module format (.mjs)_
+- all steps above, i.e. all sequelize set-up files, use CJS module format (.js) for consistency\_<br>
+- only from below use ESM module format (.mjs)\_
 
 6. voila! set-up is complete, can start using sequelize to manipulate database
 
@@ -30,7 +30,8 @@ whereas sequelize itself has been upgraded to play w ESM modules? hence model fi
 
 ## Setting up
 
-ref - https://github.com/sequelize/cli#usage
+ref - https://github.com/sequelize/cli#usage  
+[link to pdf](./SequelizeCLI.pdf)
 
 1. Optional: create .env file with DB_HOST, DB_USERNAME, DB_PASSWORD variables
 
@@ -40,3 +41,33 @@ ref - https://github.com/sequelize/cli#usage
    /migrations
    /models/ index.js
    /seeders
+
+## Config & create database
+
+1. change config.json file extension to .js
+
+2. if did optional step 1 in setting up, then require('dotenv').config() and destructure DB variables from process.env
+
+```
+require("dotenv").config();
+const { DB_HOST, DB_USERNAME, DB_PASSWORD } = process.env;
+```
+
+3. use CJS module format to export config
+
+```
+module.exports = {
+  development: {
+    username: DB_USERNAME,
+    password: DB_PASSWORD,
+    database: "trial_development",
+    host: DB_HOST,
+    dialect: "postgres",
+  },
+};
+```
+
+## Working with Arrays
+
+1. apparently only for postgresql
+2. link how to use [here](https://medium.com/@olesiag/how-to-insert-into-postgresql-array-using-sequelize-and-express-31a2dae05c51)
