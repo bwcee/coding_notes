@@ -85,7 +85,7 @@ module.exports = {
    - common refers to webpack.common.js
    - babel used for transforming javascript from ES6 to ES5 syntax => so code can be deployed in more widely-compatible ES5 syntax ([RA: 6.1.3: Webpack with Babel](https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.3-webpack-with-babel))
      - @babel/preset-env: Determines how much transpiling of our code needs to be done based on other packages that it uses (e.g, compat-table, browserslist etc), i.e, how far back we need to go
-     - @babel/preset-react: facilitate working with react
+     - @babel/preset-react: converts jsx syntax to react
    - devtool setting is to create a sourceMappingURL? -> cos used "inline-source-map", this can be seen right at the end of the generated main-[hash].bundle.js file, think if use "source-map" then the sourceMappingURL will be generated in a separate file ([Source Maps - SurviveJS](https://survivejs.com/webpack/building/source-maps/))
 
 ```webpack.dev.js
