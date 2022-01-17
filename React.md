@@ -1,6 +1,6 @@
 # React
 
-## Handling Variables - Variables vs useState vs useRef
+## Storing Values in React - Variables vs useState vs useRef
 
 ### **Summary**
 
