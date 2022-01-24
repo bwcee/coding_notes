@@ -11,6 +11,7 @@
 9. `git branch -m <old> <new>` change branch name... "m" here stands for move?
 10. `git branch -d <branch name>` delete branch. to do a forced delete, replace -d w -D. cos appararently if branch contains unmerged changes, Git will refuse to delete it.
 11. `git push origin --all` push all branches to remote
+12. `git merge <branch name>` checkout the branch (e.g. main )you want to merge changes into. then run the command here where branch name is e updated branch to merge into e checked out branch...
 
 ## References
 
