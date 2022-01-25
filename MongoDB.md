@@ -13,10 +13,6 @@
 
 1. [Data Modeling Introduction](https://docs.mongodb.com/manual/core/data-modeling-introduction/#data-modeling-introduction) See section on Data Model Examples and Patterns -> Helpful explanation on how to think about relationships between collections
 
-### Referencing how-to
-
-1. [Referencing another schema in Mongoose](https://stackoverflow.com/questions/18001478/referencing-another-schema-in-mongoose)
-
 ## Mongoose
 
 1. [Express Tutorial Part 3: Using a Database (with Mongoose)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose) Altho MDN web docs is THE ref, found this not so straightfwd
@@ -25,3 +21,9 @@
 4. [Creating the User Model](https://thinkster.io/tutorials/node-json-api/creating-the-user-model) Building User model w some validation and password authentication
 5. [How to Seed MongoDB Database From Node: The Simplest Way](https://javascript.plainenglish.io/seeding-mongodb-database-from-node-the-simplest-way-3d6a0c1c4668)
 6. [Mongoose order of methods](https://www.codeproject.com/Questions/5260095/Mongoose-order-of-methods)
+
+### Referencing how-to
+
+1. [Referencing another schema in Mongoose](https://stackoverflow.com/questions/18001478/referencing-another-schema-in-mongoose)
+
+2. [Building query using chaining syntax](https://mongoosejs.com/docs/queries.html) See the section under Executing
