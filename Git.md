@@ -12,6 +12,7 @@
 10. `git branch -d <branch name>` delete branch. to do a forced delete, replace -d w -D. cos appararently if branch contains unmerged changes, Git will refuse to delete it.
 11. `git push origin --all` push all branches to remote
 12. `git merge <branch name>` checkout the branch (e.g. main )you want to merge changes into. then run the command here where branch name is e updated branch to merge into e checked out branch...
+13. `git pull origin <branch name>` checkout the same branch tt is to be synced w the one on github. this command will sync local w remote branch
 
 ## References
 

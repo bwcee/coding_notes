@@ -21,6 +21,7 @@
 4. [Creating the User Model](https://thinkster.io/tutorials/node-json-api/creating-the-user-model) Building User model w some validation and password authentication
 5. [How to Seed MongoDB Database From Node: The Simplest Way](https://javascript.plainenglish.io/seeding-mongodb-database-from-node-the-simplest-way-3d6a0c1c4668)
 6. [Mongoose order of methods](https://www.codeproject.com/Questions/5260095/Mongoose-order-of-methods)
+7. [Updating Documents in Mongoose](https://masteringjs.io/tutorials/mongoose/update) Need to clear of the difference between documents and Models!!
 
 ### Referencing how-to
 
