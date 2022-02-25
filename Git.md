@@ -18,3 +18,4 @@
 
 1. [Git Delete Branch How-To, for Both Local and Remote](https://www.cloudbees.com/blog/git-delete-branch-how-to-for-both-local-and-remote)
 2. [Git Branching and Merging: A Step-By-Step Guide](https://www.varonis.com/blog/git-branching)
+3. [Learning How to Git: Creating a (Longer) Commit Message](https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a)
