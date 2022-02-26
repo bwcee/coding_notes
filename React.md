@@ -113,6 +113,15 @@ function MyComponent() {
 - controlled component -> using state within component to handle form data
 - uncontrolled component -> DOM handles form data by itself in the component
 
+### **useContext + useReducer**
+
+#### References:
+
+- [A Guide to React Context and useContext() Hook](https://dmitripavlutin.com/react-context-and-usecontext/)
+- [An Easy Guide to React useReducer() Hook](https://dmitripavlutin.com/react-usereducer/)
+- [The best Couple: useContext + useReducer !](https://dev.to/jackent2b/the-best-couple-usecontext-usereducer-4e65)
+-
+
 ## Misc References
 
 1. [Understanding Rendering in React](https://dev.to/teo_garcia/understanding-rendering-in-react-i5i)
